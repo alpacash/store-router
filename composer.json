@@ -1,0 +1,17 @@
+{
+    "name": "alpaca-sh/store-router",
+    "description": "Magento 2 store routing definitions.",
+    "type": "library",
+    "autoload": {
+        "files": [
+            "src/autoload.php"
+        ],
+        "psr-4": {
+            "Alpaca\\Alpaca\\StoreRouter\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/yaml": "^3.3",
+        "symfony/http-foundation": "^3.4"
+    }
+}
