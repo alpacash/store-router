@@ -1,5 +1,5 @@
 {
-    "name": "alpaca-sh/magento2-store-router",
+    "name": "alpacadotsh/magento2-store-router",
     "description": "Magento 2 store routing rules and definitions.",
     "type": "library",
     "autoload": {
