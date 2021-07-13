@@ -1,4 +1,4 @@
-# Alpaca StoreRouter
+# Magento 2 Store Router
 
 This package will allow you to maintain specific rules based on http request conditions. We can add additional rules or conditions to this module whenever they are required.
 
