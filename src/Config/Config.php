@@ -7,8 +7,8 @@ use Symfony\Component\Yaml\Yaml;
 
 class Config
 {
-    const CONFIG_FILE_PATH = BP . '/.store-router.app.yaml';
-    const ENV_FILE_PATH = BP . '/.store-router.env.yaml';
+    const CONFIG_FILE_PATH = BP . '/.store-routes.app.yaml';
+    const ENV_FILE_PATH = BP . '/.store-routes.env.yaml';
 
     /**
      * @var \Alpaca\StoreRouter\Config\Group[]

@@ -7,7 +7,7 @@
             "src/autoload.php"
         ],
         "psr-4": {
-            "Alpaca\\Alpaca\\StoreRouter\\": "src/"
+            "Alpaca\\StoreRouter\\": "src/"
         }
     },
     "require": {
