@@ -70,9 +70,11 @@ class ConfigDumpCommand extends Command
 
         if (empty($config)) {
             $output->writeln("No config available to dump.");
+
+            return 1;
         }
 
-        $output->writeln(Yaml::dump($config));
+        $output->writeln(Yaml::dump($config, 4));
 
         return 0;
     }

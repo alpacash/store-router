@@ -4,7 +4,7 @@
         <arguments>
             <argument name="commands" xsi:type="array">
                 <item name="alpaca_storerouter_config_dump"
-                      xsi:type="object">ConfigDumpCommand
+                      xsi:type="object">Alpaca\StoreRouter\Console\Command\ConfigDumpCommand
                 </item>
             </argument>
         </arguments>
