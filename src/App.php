@@ -5,7 +5,7 @@ namespace Alpaca\StoreRouter;
 class App
 {
     const DEFAULT_HOST = 'default';
-    const DEFAULT_PATH = '*';
+    const DEFAULT_PATH = '/';
 
     /**
      * @return self
@@ -42,6 +42,8 @@ class App
      */
     public function requestPath(): string
     {
-        return $_SERVER['REQUEST_URI'] ?? self::DEFAULT_PATH;
+        $requestPath = strtok($_SERVER['REQUEST_URI'] ?? self::DEFAULT_PATH, '?');
+
+        return rtrim($requestPath, '/') . '/';
     }
 }
